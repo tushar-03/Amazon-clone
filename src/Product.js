@@ -21,7 +21,7 @@ function Product({ id, title, image, price, rating }) {
         });
     };
     return (
-        <div className='product'>
+        <div className='product hover-zoom hover-shadow'>
             <div className='product_info'>
                 <p> {title} </p>
                 <p className='product_price'>

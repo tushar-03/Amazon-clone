@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import reducer, { initialState } from "./reducer";
 import { StateProvider } from "./StateProvider";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

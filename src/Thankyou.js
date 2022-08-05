@@ -5,7 +5,7 @@ function Thankyou() {
     return (
         <div className='thankyou'>
             <div className='thankyou_container'>
-                <h1> Thankyou for Shopping with amazon . </h1>
+                <h1> Thank You for Shopping with Amazon . </h1>
             </div>
         </div>
     )

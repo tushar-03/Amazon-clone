@@ -16,9 +16,8 @@ function Header() {
         }
     }
 
-
     return (
-        <div className='header'>
+        <div className='header '>
 
             <Link to='/'>
 
@@ -33,7 +32,7 @@ function Header() {
 
                 <SearchIcon className='header_searchIcon' />
             </div>
-            <div className='header_nav'>
+            <div className='header_nav '>
                 <Link to={!user && '/login'}>
                     <div onClick={handleAuthentication} className='header_option'>
                         <span className='header_optionLineOne'>    Hello   {!user ? 'Guest' : user.email.slice(0, 5)} </span>
@@ -42,8 +41,9 @@ function Header() {
                         </span>
                     </div>
                 </Link>
-                <div className='header_option'>
-                    <span className='header_optionLineOne'>
+
+                <div className='header_option ' >
+                    <span className='header_optionLineOne '>
                         Returns
                     </span>
                     <span className='header_optionLineTwo'>

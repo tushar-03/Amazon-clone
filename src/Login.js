@@ -34,7 +34,7 @@ function Login() {
     }
 
     return (
-        <div className='login'>
+        <div className='login bg-light'>
             <Link to="/">
                 <img className='login_logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png' />
             </Link>

@@ -3,10 +3,10 @@ import "./Home.css";
 import Product from './Product.js';
 function Home() {
     return (
-        <div className='home'>
-            <div className='home_container'>
-                <img className='home_image' src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/JUPITER/Wave3/Headers/xcm_banners_2021_jupiterph3_desktop-1500x300-bg-headline-subtext-badge-ut6d5-vlrfd_1500x300_in-en.jpg" />
-                <div className='home_rowTop'>
+        <div className="home bg-light">
+            <div className='home_container '>
+                <img className='home_image ' src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/JUPITER/Wave3/Headers/xcm_banners_2021_jupiterph3_desktop-1500x300-bg-headline-subtext-badge-ut6d5-vlrfd_1500x300_in-en.jpg" />
+                <div className='home_rowTop '>
 
                     < Product
                         id="12321341"
